@@ -19,7 +19,7 @@ layout(push_constant) uniform Push
 #pragma parameter scanlineStrength "Scanline strength" 0.65 0.0 1.0 0.01
 #pragma parameter scanlineFrequency "Scanline frequency" 120.0 1.0 300.0 1.0
 #pragma parameter contrast "CRT contrast" 1.20 0.50 1.60 0.01
-#pragma parameter brightness "CRT brightness" 1.00 0.50 1.50 0.01
+#pragma parameter brightness "CRT brightness" 0.50 0.00 1.50 0.01
 #pragma parameter horizontalSoftness "Horizontal softness" 1.0 0.0 1.0 0.01
 #pragma parameter horizontalStretch "Beam horizontal spread" 3.0 0.0 6.0 0.25
 

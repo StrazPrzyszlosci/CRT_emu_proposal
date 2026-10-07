@@ -20,7 +20,7 @@ blurAmount = "7.000000"
 scanlineStrength = "0.650000"
 scanlineFrequency = "120.000000"
 contrast = "1.200000"
-brightness = "1.000000"
+brightness = "0.500000"
 horizontalSoftness = "1.000000"
 horizontalStretch = "3.000000"
 
