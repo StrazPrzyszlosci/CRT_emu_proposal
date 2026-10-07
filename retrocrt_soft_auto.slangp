@@ -1,0 +1,38 @@
+shaders = 3
+
+shader0 = "retrocrt_soft.slang"
+filter_linear0 = true
+scale_type0 = source
+scale0 = 1.0
+
+shader1 = "retrocrt_finish.slang"
+filter_linear1 = true
+scale_type1 = source
+scale1 = 1.0
+
+shader2 = "retrocrt_tone.slang"
+filter_linear2 = true
+scale_type2 = viewport
+
+parameters = "blurAmount;scanlineStrength;scanlineFrequency;contrast;brightness;horizontalSoftness;horizontalStretch;detailStrength;unsharpAmount;unsharpThreshold;gaussianBlend;edgeSmoothAmount;horizontalBlur;autoTone;toneStrength;contrastPreserve;blackProtect;whiteProtect"
+
+blurAmount = "7.000000"
+scanlineStrength = "0.650000"
+scanlineFrequency = "120.000000"
+contrast = "1.200000"
+brightness = "1.000000"
+horizontalSoftness = "1.000000"
+horizontalStretch = "3.000000"
+
+detailStrength = "0.500000"
+unsharpAmount = "0.800000"
+unsharpThreshold = "2.000000"
+gaussianBlend = "0.350000"
+edgeSmoothAmount = "0.750000"
+horizontalBlur = "0.700000"
+
+autoTone = "1.000000"
+toneStrength = "0.850000"
+contrastPreserve = "0.850000"
+blackProtect = "0.800000"
+whiteProtect = "0.800000"
